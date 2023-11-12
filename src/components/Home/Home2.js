@@ -1,11 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/IMG_3472_1_1-modified.png";
 import Tilt from "react-parallax-tilt";
+import pdf from "../../Assets/Black & White Minimalistic Professional Resume.pdf";
 import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillFacebook,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -18,6 +20,7 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
+            {/*
             <p className="home-about-body">
               I am fluent in classics like
               <i>
@@ -29,6 +32,19 @@ function Home2() {
               <br />
               <br />
               My pronouns are <i><b>Jack of All Trades / Master of none</b></i>
+            </p>
+  */}
+            <p className="home-about-body">
+              I like to code in back-end, For example
+              <i>
+                <b className="purple"> JavaScript , TypeScript. </b>
+              </i>
+              <br />
+              <br />
+              I want to internship in back-end developer.
+              <br />
+              <br />
+              <a href={pdf} className="btn " style={{ backgroundColor: '#c770f0' }} textDecoration="none">This is my resume.</a>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -46,7 +62,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/sukrutrahane"
+                  href="https://github.com/oak072544"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -54,6 +70,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
+              {/*
               <li className="social-icons">
                 <a
                   href="https://twitter.com/sukrutrahane"
@@ -64,19 +81,20 @@ function Home2() {
                   <AiOutlineTwitter />
                 </a>
               </li>
+*/}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/sukrutrahane/"
+                  href="https://web.facebook.com/Okeno.j.s"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <FaLinkedinIn />
+                  <AiFillFacebook />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/sukkkrut"
+                  href="https://www.instagram.com/okeno0v0/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
