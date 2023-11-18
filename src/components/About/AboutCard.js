@@ -8,12 +8,14 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Jiraphat Srisomphan </span>
+            Hi Everyone, I am{" "}
+            <span className="purple">Jiraphat Srisomphan </span>
             from <span className="purple"> Nonthaburi, Thailand.</span>
-            <br /> I am a 4th Year student Bachelor's degree
-            in Electronical Engineering Technology (Computer), College of Industrial Technology from King Mongkut's University of Technology North Bangkok (KMUTNB).
+            <br /> I am a 4th Year student Bachelor's degree in Electronical
+            Engineering Technology (Computer), College of Industrial Technology
+            from King Mongkut's University of Technology North Bangkok (KMUTNB).
             <br />
-            Additionally, I am intered in back-end developer.
+            Additionally, I am interested in back-end developer.
             <br />
             <br />
             Some of my hobbies are
@@ -29,7 +31,6 @@ function AboutCard() {
               <ImPointRight /> Meditation
             </li>
           </ul>
-          
         </blockquote>
       </Card.Body>
     </Card>
